@@ -1,0 +1,26 @@
+{
+    "name": "issue/coverage",
+    "description": "description",
+    "minimum-stability": "stable",
+    "license": "free",
+    "authors": [
+        {
+            "name": "dmytro.artemiev",
+            "email": "email@example.com"
+        }
+    ],
+    "require": {
+        "codeception/codeception": "4.1.6",
+        "codeception/phpunit-wrapper": "9.0.2",
+        "phpunit/phpunit": "9.3.7",
+        "codeception/module-phpbrowser": "1.0.1",
+        "codeception/module-asserts": "1.2.1"
+    },
+    "config": {
+        "discard-changes": true,
+        "preferred-install": "dist",
+        "platform": {
+            "php": "7.4.9"
+        }
+    }
+}
